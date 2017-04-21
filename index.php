@@ -10,10 +10,12 @@
     <p>
       <?php
       $age = 30;
-        if ($age < 18) {
+        if ($age < 18)
+        {
           echo "You're a minor.";
         }
-        else {
+        else
+        {
           echo "You're a big boy!";
         }
       ?>
@@ -24,16 +26,20 @@
       <?php
       $age = 17;
       $gender = "woman";
-        if ($age <18 AND $gender == "male") {
+        if ($age <18 AND $gender == "male")
+        {
           echo "You're a man and you're a minor.";
         }
-        elseif ($age <18 AND $gendre != "male") {
+        elseif ($age <18 AND $gendre != "male")
+        {
           echo "You're a woman and you're a minor";
         }
-        elseif ($age >= 18 AND $gendre == "male") {
+        elseif ($age >= 18 AND $gendre == "male")
+        {
           echo "You're a man and you're a big boy.";
         }
-        elseif ($age >= 18 AND $gendre != "male") {
+        elseif ($age >= 18 AND $gendre != "male")
+        {
           echo "You're a man and you're a big boy.";
         }
       ?>
@@ -43,10 +49,12 @@
     <p>
       <?php
       $gender = "man";
-      if ($gender != "male") {
+      if ($gender != "male")
+      {
         echo "She's a developer";
       }
-      else {
+      else
+      {
         echo "He's a developer";
       }
       ?>
@@ -56,10 +64,12 @@
     <p>
       <?php
       $age = 16;
-      if ($age >= 18) {
+      if ($age >= 18)
+      {
         echo "You're a big boy!";
       }
-      else {
+      else
+      {
         echo "You're a minor.";
       }
       ?>
@@ -69,10 +79,12 @@
     <p>
       <?php
       $boolean = false;
-      if ($boolean == true) {
+      if ($boolean == true)
+      {
         echo "This is correct!";
       }
-      else {
+      else
+      {
         echo "It's incorrect";
       }
       ?>
@@ -82,10 +94,12 @@
     <p>
       <?php
       $var = 10;
-      if ($var == (5 + 4)) {
+      if ($var == (5 + 4))
+      {
         echo "It's OK";
       }
-      else {
+      else
+      {
         echo "It's a no no!!!";
       }
       ?>
