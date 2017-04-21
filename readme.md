@@ -1,6 +1,6 @@
 #PHP - Les conditions
 
-Preview :
+Preview : https://htmlpreview.github.io/?https://github.com/elixman/Exo2-php/blob/master/index.php
 
 ##Exercice 1
 Créer une variable **age** et l'initialiser avec une valeur.  
