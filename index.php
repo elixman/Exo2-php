@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title></title>
+    <title>Exo2-php</title>
   </head>
   <body>
     <p>##Exercice 1</p>
